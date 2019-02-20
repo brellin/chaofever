@@ -1,0 +1,7 @@
+AuthName "chaofever.sonicstrike.net statistics"
+AuthType Basic
+AuthUserFile /home/sonic/domains/chaofever.sonicstrike.net/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

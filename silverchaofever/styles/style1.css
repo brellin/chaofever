@@ -1,0 +1,117 @@
+body {
+	background-image: url('../images/bgs.jpg');
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	color: 00f4f3;
+	font-family: Courier New, Onyx;
+	vertical-align: top;
+}
+.h2 {
+	text-align: center;
+	border-top: 1px solid #00f4f3;
+	border-bottom: 1px solid #00f4f3;
+	font-family: Sans-serif, Courier New;
+}
+div.divban {
+	position: absolute;
+	right: 2px;
+	top: 59%;
+	visibility: visible;
+	color: 00f4f3;
+	width: 400px;
+	height: 200px;
+	text-align: left;
+	vertical-align: top;
+}
+legend {
+	background-color: none;
+	color: 00f4f3;
+	font-weight: bolder;
+}
+fieldset.divban {
+	background-color: 000000;
+	border: 2px solid #00f4f3;
+	color: 00f4f3;
+}
+a.divban:link, a.divban:visited, a.divban:active{
+	display: block;
+	color: #00f4f3;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+}
+a.divban:hover {
+	display: block;
+	color: 000000;
+	text-decoration: none;
+	background-color: 00f4f3;
+}
+a:link, a:visited, a:active {
+	display: block;
+	color: #c4d7e8;
+	text-decoration: none;
+}
+a:hover {
+	display: block;
+	color: #000000;
+	background-color: #c4d7e8;
+	text-decoration: inherit;
+}
+a.links:link, a.links:visited, a.links:active{
+	display: block;
+	color: #c4d7e8;
+	text-decoration: none;
+	background-color: 000000;
+	text-align: center;
+}
+a.links:hover {
+	display: block;
+	color: #c4d7e8;
+	text-decoration: none;
+	background-color: 000000;
+}
+.vfm {
+	border-top: 1px solid #00f4f3;
+	border-bottom: 1px solid #00f4f3;
+	font-family: Sans-serif, Courier New;
+}
+
+.banner {
+	width: 100%;
+	vertical-align: top;
+	border: 1px solid #c4d7e8;
+}
+.container {
+	margin-top: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #c4d7e8;
+	border-top: 0px;
+	background-color: #000000;
+	vertical-align: top;
+}
+.leftnav {
+	width: 20%;
+	border: 1px solid #c4d7e8;
+	border-top: 0px;
+	vertical-align: top;
+}
+.rightnav {
+	width: 20%;
+	border: 1px solid #c4d7e8;
+	border-top: 0px;
+	vertical-align: top;
+}
+.body {
+	width: 60%;
+	border: 1px solid #c4d7e8;
+	border-top: 0px;
+	vertical-align: top;
+	text-indent: 20px;
+}
+.footer {
+	text-align: center;
+	vertical-align: top;
+}
