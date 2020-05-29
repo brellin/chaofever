@@ -9,14 +9,15 @@
     color: @1;
     background: @2;
     text-decoration: none;
-    padding: 2px 0;
+    padding: 2.5px 5px;
     position: relative;
     left: 0px;
-    transition: left 1.5s ease-out 0s;
+    transition: margin-left 1.5s ease-out 0s;
+
     &:hover{
         color: white;
         background: transparent;
-        left: 50%;
+        margin-left: 25%;
     }
 }
 
@@ -57,11 +58,13 @@ header{
         right: 5%;
         top: 35%;
         width: 300px;
+
         fieldset{
             background: @bg;
             font-size: 1.5rem;
             border: 2px solid @mid;
             border-radius: 50px;
+
             legend{
                 padding: 0 5px;
                 margin-left: 10px;
@@ -70,16 +73,20 @@ header{
                 font-weight: bolder;
                 border-radius: 15px;
             }
+
         }
+
         a{
             display: block;
             text-decoration: none;
             color: @light;
             text-align: center;
             transition: color .5s ease-out 0s;
+
             &:hover{
                 color: @dark;
             }
+
         }
     }
 }
@@ -89,26 +96,33 @@ header{
     display: flex;
     flex-wrap: wrap;
     background: rgba(0, 0, 37, .95);
+    
     .nav{
         width: 25%;
         display: flex;
         flex-direction: column;
+
         img{
             width: 100%;
         }
+
         a{
             font-size: 1.6rem;
-            width: 100%;
+            width: calc(100% - 10px);
             text-decoration: none;
+
             &.lightnav{
                 .link(@bg, @light);
             }
+
             &.mid{
                 .link(@bg, @mid);
             }
+
             &.darknav{
                 .link(@bg, @dark);
             }
+
         }
     }
     section{

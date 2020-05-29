@@ -71,50 +71,50 @@ header .divban a:hover {
 }
 .main .nav a {
   font-size: 1.6rem;
-  width: 100%;
+  width: calc(100% - 10px);
   text-decoration: none;
 }
 .main .nav a.lightnav {
   color: #000025;
   background: #ffd35e;
   text-decoration: none;
-  padding: 2px 0;
+  padding: 2.5px 5px;
   position: relative;
   left: 0px;
-  transition: left 1.5s ease-out 0s;
+  transition: margin-left 1.5s ease-out 0s;
 }
 .main .nav a.lightnav:hover {
   color: white;
   background: transparent;
-  left: 50%;
+  margin-left: 25%;
 }
 .main .nav a.mid {
   color: #000025;
   background: #ec7807;
   text-decoration: none;
-  padding: 2px 0;
+  padding: 2.5px 5px;
   position: relative;
   left: 0px;
-  transition: left 1.5s ease-out 0s;
+  transition: margin-left 1.5s ease-out 0s;
 }
 .main .nav a.mid:hover {
   color: white;
   background: transparent;
-  left: 50%;
+  margin-left: 25%;
 }
 .main .nav a.darknav {
   color: #000025;
   background: #7a3e04;
   text-decoration: none;
-  padding: 2px 0;
+  padding: 2.5px 5px;
   position: relative;
   left: 0px;
-  transition: left 1.5s ease-out 0s;
+  transition: margin-left 1.5s ease-out 0s;
 }
 .main .nav a.darknav:hover {
   color: white;
   background: transparent;
-  left: 50%;
+  margin-left: 25%;
 }
 .main section {
   width: 75%;
