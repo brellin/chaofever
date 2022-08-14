@@ -1,0 +1,141 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div#__next {
+  width: 80%;
+  @include flex($w: wrap);
+  background-color: $blue-bg;
+  margin: 0 auto;
+
+  header,
+  img {
+    width: 100%;
+  }
+
+  nav {
+    width: 25%;
+    @include flex(column);
+
+    h1 {
+      background: linear-gradient($brown, $orange);
+      font-family: "Pozo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      color: $blue-bg;
+      font-size: 4rem;
+      margin: 0;
+      text-align: center;
+
+      &.mid-to-light {
+        background: linear-gradient($orange, $yellow);
+        font-size: 3rem;
+      }
+
+      &.light-to-mid {
+        background: linear-gradient($yellow, $orange);
+        font-size: 3rem;
+      }
+
+      &.mid-to-dark {
+        background: linear-gradient($orange, $brown);
+        font-size: 3rem;
+      }
+    }
+
+    a {
+      font-size: 1.6rem;
+      text-decoration: none;
+      transition: 1.5s ease-out padding-left;
+      color: $blue-bg;
+      white-space: nowrap;
+      padding: 2px 5px;
+
+      &.light {
+        background-color: $yellow;
+      }
+
+      &.mid {
+        background-color: $orange;
+      }
+
+      &.dark {
+        background-color: $brown;
+      }
+
+      &:hover {
+        padding-left: 25%;
+        background-color: $blue-bg;
+        color: white;
+      }
+    }
+  }
+
+  main {
+    width: 75%;
+
+    h1 {
+      background: linear-gradient($yellow, $orange);
+      font-family: "Pozo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      color: $blue-bg;
+      font-size: 4rem;
+      margin: 0;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bolder;
+      padding: 5px 0;
+      margin: 25px 0;
+      border-top: 5px ridge orangered;
+      border-bottom: 5px groove orangered;
+      border-radius: 25%;
+      background: #792000;
+      text-shadow: 2.5px 5px #380f00;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.6rem;
+      text-indent: -20px;
+      margin: 0 10%;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+    }
+  }
+
+  footer {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px ridge #7a3e04;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #000025 url(../images/bg.jpg);
+    background-attachment: fixed;
+    font-family: Courier, "Courier New", monospace;
+  }
+}

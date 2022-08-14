@@ -1,0 +1,25 @@
+$blue-bg: #000025;
+$yellow: #ffd35e;
+$orange: #ec7807;
+$brown: #7a3e04;
+
+@mixin flex($d: row, $j: stretch, $a: stretch, $w: nowrap) {
+  display: flex;
+  flex-flow: $d $w;
+  justify-content: $j;
+  align-items: $a;
+}
+
+@mixin grad($one, $two) {
+  background: linear-gradient($one, $two);
+  font-family: "Pozo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: $blue-bg;
+  font-size: 5rem;
+  margin: 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: Pozo;
+  src: url(../assets//fonts/Pozofour.ttf);
+}

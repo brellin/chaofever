@@ -11,7 +11,7 @@ html {
 body {
   background: #000025 url(../images/bg.jpg);
   background-attachment: fixed;
-  font-family: Courier, 'Courier New', monospace;
+  font-family: Courier, "Courier New", monospace;
 }
 .wrap {
   display: flex;
@@ -59,7 +59,7 @@ header .divban a:hover {
 .main {
   display: flex;
   flex-wrap: wrap;
-  background: rgba(0, 0, 37, 0.95);
+  background: #000025f2;
 }
 .main .nav {
   width: 25%;
