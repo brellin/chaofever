@@ -16,30 +16,30 @@ export default function Layout({ children }) {
       <NavLink href='/' className='light'>Home</NavLink>
       <NavLink href='/contact' className='light'>Contact</NavLink>
       <h1 className="light-to-mid">Tips & Tricks</h1>
-      <Link href='/tips/grades'><a className='mid'>Grades</a></Link>
-      <Link href='/tips/gardens'><a className='mid'>Gardens</a></Link>
-      <Link href='/tips/breeding'><a className='mid'>Breeding</a></Link>
-      <Link href='/tips/expressions'><a className='mid'>Expressions</a></Link>
-      <Link href='/tips/small-animals'><a className='mid'>Small Animals</a></Link>
-      <Link href='/tips/chao-items'><a className='mid'>Chao Items</a></Link>
-      <Link href='/tips/never-dos'><a className='mid'>Never-Dos</a></Link>
-      <Link href='/tips/kindergarten'><a className='mid'>Kindergarten</a></Link>
-      <Link href='/tips/competitions'><a className='mid'>Competitions</a></Link>
-      <Link href='/tips/evolution-and-death'><a className='mid'>Evolution/Death</a></Link>
-      <Link href='/tips/tiny-chao-garden'><a className='mid'>Tiny Chao Garden</a></Link>
-      <Link href='/tips/tricks'><a className='mid'>Tricks</a></Link>
+      <NavLink href='/tips/grades' className='mid'>Grades</NavLink>
+      <NavLink href='/tips/gardens' className='mid'>Gardens</NavLink>
+      <NavLink href='/tips/breeding' className='mid'>Breeding</NavLink>
+      <NavLink href='/tips/expressions' className='mid'>Expressions</NavLink>
+      <NavLink href='/tips/small-animals' className='mid'>Small Animals</NavLink>
+      <NavLink href='/tips/chao-items' className='mid'>Chao Items</NavLink>
+      <NavLink href='/tips/never-dos' className='mid'>Never-Dos</NavLink>
+      <NavLink href='/tips/kindergarten' className='mid'>Kindergarten</NavLink>
+      <NavLink href='/tips/competitions' className='mid'>Competitions</NavLink>
+      <NavLink href='/tips/evolution-and-death' className='mid'>Evolution/Death</NavLink>
+      <NavLink href='/tips/tiny-chao-garden' className='mid'>Tiny Chao Garden</NavLink>
+      <NavLink href='/tips/tricks' className='mid'>Tricks</NavLink>
       <h1 className="mid-to-light">Hero Chao</h1>
-      <Link href='/hero/first'><a className='light'>1<sup>st</sup> Evolution</a></Link>
-      <Link href='/hero/second'><a className='light'>2<sup>nd</sup> Evolution</a></Link>
-      <Link href='/hero/chaos'><a className='light'>Chaos Evolution</a></Link>
+      <NavLink href='/hero/first' className='light'>1<sup>st</sup> Evolution</NavLink>
+      <NavLink href='/hero/second' className='light'>2<sup>nd</sup> Evolution</NavLink>
+      <NavLink href='/hero/chaos' className='light'>Chaos Evolution</NavLink>
       <h1 className="light-to-mid">Neutral Chao</h1>
-      <Link href='/neutral/first'><a className='mid'>1<sup>st</sup> Evolution</a></Link>
-      <Link href='/neutral/second'><a className='mid'>2<sup>nd</sup> Evolution</a></Link>
-      <Link href='/neutral/chaos'><a className='mid'>Chaos Evolution</a></Link>
+      <NavLink href='/neutral/first' className='mid'>1<sup>st</sup> Evolution</NavLink>
+      <NavLink href='/neutral/second' className='mid'>2<sup>nd</sup> Evolution</NavLink>
+      <NavLink href='/neutral/chaos' className='mid'>Chaos Evolution</NavLink>
       <h1 className="mid-to-dark">Dark Chao</h1>
-      <Link href='/dark/first'><a className='dark'>1<sup>st</sup> Evolution</a></Link>
-      <Link href='/dark/second'><a className='dark'>2<sup>nd</sup> Evolution</a></Link>
-      <Link href='/dark/chaos'><a className='dark'>Chaos Evolution</a></Link>
+      <NavLink href='/dark/first' className='dark'>1<sup>st</sup> Evolution</NavLink>
+      <NavLink href='/dark/second' className='dark'>2<sup>nd</sup> Evolution</NavLink>
+      <NavLink href='/dark/chaos' className='dark'>Chaos Evolution</NavLink>
     </nav>
 
     <main>
@@ -47,6 +47,6 @@ export default function Layout({ children }) {
       { children }
     </main>
 
-    <footer>© <a href="http://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
+    <footer>© <a href="https://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
   </>;
 }
