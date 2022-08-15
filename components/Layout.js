@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import NavLink from './NavLink';
 import Image from 'next/image';
 
 import header from '../images/banner.jpg';
@@ -12,8 +13,8 @@ export default function Layout({ children }) {
     <nav>
       <h1>Navigation</h1>
       <h1 className="mid-to-light">Site Stuff</h1>
-      <Link href='/'><a className='light'>Home</a></Link>
-      <Link href='/contact'><a className='light'>Contact</a></Link>
+      <NavLink href='/' className='light'>Home</NavLink>
+      <NavLink href='/contact' className='light'>Contact</NavLink>
       <h1 className="light-to-mid">Tips & Tricks</h1>
       <Link href='/tips/grades'><a className='mid'>Grades</a></Link>
       <Link href='/tips/gardens'><a className='mid'>Gardens</a></Link>
@@ -42,7 +43,7 @@ export default function Layout({ children }) {
     </nav>
 
     <main>
-      <h1>Chao Fever</h1>
+      <h1>{ children.type.name.match(/[A-Z][a-z]+/g).join(' ') }</h1>
       { children }
     </main>
 

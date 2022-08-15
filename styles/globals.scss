@@ -73,7 +73,8 @@ div#__next {
         background-color: $brown;
       }
 
-      &:hover {
+      &:hover,
+      &.active {
         padding-left: 25%;
         background-color: $blue-bg;
         color: white;
@@ -82,9 +83,11 @@ div#__next {
   }
 
   main {
+    @include flex(column, flex-start, center);
     width: 75%;
 
     h1 {
+      width: 100%;
       background: linear-gradient($yellow, $orange);
       font-family: "Pozo", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       color: $blue-bg;
@@ -94,6 +97,7 @@ div#__next {
     }
 
     h2 {
+      width: 100%;
       font-size: 2.5rem;
       font-weight: bolder;
       padding: 5px 0;
@@ -112,6 +116,16 @@ div#__next {
       margin: 0 10%;
       margin-block-start: 1em;
       margin-block-end: 1em;
+    }
+
+    a {
+      color: $orange;
+      text-decoration: none;
+      transition: 0.3s ease-out;
+
+      &:hover {
+        color: $yellow;
+      }
     }
   }
 
