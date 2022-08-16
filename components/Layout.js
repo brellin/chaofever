@@ -6,6 +6,7 @@ import Head from 'next/head';
 import header from '../images/banner.jpg';
 
 export default function Layout({ children }) {
+  const heading = children ? children.type.name.match(/[A-Z][a-z]+/g).join(' ') : 'Chao Fever';
   return <>
     <Head>
       <title>Chao Fever</title>
@@ -51,7 +52,7 @@ export default function Layout({ children }) {
     </nav>
 
     <main>
-      <h1>{ children.type.name.match(/[A-Z][a-z]+/g).join(' ') || 'Chao Fever' }</h1>
+      <h1>{ heading }</h1>
       { children }
     </main>
 
