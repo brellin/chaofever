@@ -4,7 +4,7 @@ export default function DarkFirstEvolution() {
             Dark/Swim
         </h3>
         <h4>
-            Common name: "Ninja Chao"
+            Common name: Ninja Chao
         </h4>
         <p>
             This Chao has aqua markings and has one small spike coming up from the back of its head.
@@ -14,7 +14,7 @@ export default function DarkFirstEvolution() {
             Dark/Fly
         </h3>
         <h4>
-            Common name: "(Basic) Reala Chao"
+            Common name: (Basic) Reala Chao
         </h4>
         <p>
             Has two jesters and is a dark purple colour. Resembles the Sega character Reala. (From the game NiGHTS into dreams)
