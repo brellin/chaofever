@@ -102,12 +102,40 @@ div#__next {
       font-weight: bolder;
       padding: 5px 0;
       margin: 25px 0;
-      border-top: 5px ridge orangered;
-      border-bottom: 5px groove orangered;
+      border-top: 5px ridge $brown;
+      border-bottom: 5px groove $brown;
+      background: $orange;
       border-radius: 25%;
-      background: #792000;
-      text-shadow: 2.5px 5px #380f00;
+      text-shadow: 2.5px 2.5px $brown;
       text-align: center;
+    }
+
+    h3 {
+      font-size: 2rem;
+      padding: 5px;
+      margin: 25px 0;
+      border-top: 5px ridge $yellow;
+      border-bottom: 5px groove $yellow;
+      background: $orange;
+      border-radius: 25%;
+      text-shadow: 2.5px 2.5px $brown;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 2rem;
+      padding: 5px;
+      margin: 25px 0;
+      border-top: 5px ridge $orange;
+      border-bottom: 5px groove $orange;
+      background: $brown;
+      border-radius: 25%;
+      text-shadow: 2.5px 2.5px black;
+      text-align: center;
+    }
+
+    h5 {
+      font-size: 1.75rem;
     }
 
     p {
@@ -125,6 +153,24 @@ div#__next {
 
       &:hover {
         color: $yellow;
+      }
+    }
+
+    div.table {
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      &.two {
+        grid-template-columns: 50% 50%;
+      }
+
+      p,
+      h5 {
+        text-align: center;
+        text-indent: 0;
       }
     }
   }

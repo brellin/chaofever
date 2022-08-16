@@ -31,9 +31,9 @@ export default function NeutralSecondEvolution() {
         </h3>
 
 
-        <h3>
+        <h4>
             Common name: "Sumo Chao"
-        </h3>
+        </h4>
 
         <p>
             Very fat, has a very large stomach that sticks out.
