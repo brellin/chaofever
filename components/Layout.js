@@ -55,6 +55,6 @@ export default function Layout({ children }) {
       { children }
     </main>
 
-    <footer>© <a href="https://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
+    <footer>©2007-2020 <a href="https://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
   </>;
 }
