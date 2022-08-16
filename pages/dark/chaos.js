@@ -1,6 +1,6 @@
 export default function DarkChaosEvolution() {
     return <>
-        <h1>The Devil Chao</h1>
+        <h2>The Devil Chao</h2>
 
         <p>
             Follow the first two steps of making the other two Chaos Chao.
