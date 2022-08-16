@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Competitions() {
     return <>
         <h2>-Chao Stadium-</h2>
@@ -9,7 +11,7 @@ export default function Competitions() {
         <p>-Chao Race-</p>
 
         <p>
-            Picking Chao Race will lead you to the Chao Stadium where you will have two different Race types to choose, they will be Begginer Race, and Party Race, To unlock Jewel Race, Chalange Race, Hero and Dark, Race you must first complete Begginer Race. (Note: You can win Prizes from completing races for more info on that check <a href="ci.html" class="contact">Chao Items</a>. Here is a list of the races inside each race and the prize for completing each.
+            Picking Chao Race will lead you to the Chao Stadium where you will have two different Race types to choose, they will be Begginer Race, and Party Race, To unlock Jewel Race, Chalange Race, Hero and Dark, Race you must first complete Begginer Race. (Note: You can win Prizes from completing races for more info on that check <Link href="ci.html">Chao Items</Link>.) Here is a list of the races inside each race and the prize for completing each.
             Beginner Race
             Crab Pool (Based on Swimming) - Shovel
             Stump Valley (Based on Flying) - Watering Can
@@ -32,7 +34,7 @@ export default function Competitions() {
             Race 1: Challenge the stong Gold and Silver Rivals! (You Face Gold and Silver chao)
             Race 2: He Returns (You face a gray chao)
             Race 3: I'm Trying (You face Omochao)
-            Race 4: Small Animal Challenge (You face a Variety of different Animals - Chao Garden Ball
+            Race 4: Small Animal Challenge (You face a Variety of different Animals - Chao Garden Ball)
             Race 5: Horrible Cockroach Chao group (You face chao with intenas)
             Race 6: Oh, My Egg (Face egg chao)
             Race 7: Be Afraid! Skeliton Group (chao with a skull hat)

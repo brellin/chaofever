@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <Head>
       <title>Chao Fever</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+      <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
       <meta name="description" content="The Chao information hub with a feel like a blast from the past" />
       <meta name="keywords" content="Sonic, Chao, Chaos, Sega, Sonic Adventure, Sonic Adventure 2, Sonic Advance, Dreamcast, Gamecube, Tikal, Mooncow, Chaos Chao, Evolution, Evolutions Hero, Dark, Egg" />
     </Head>
