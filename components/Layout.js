@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import NavLink from './NavLink';
-import banner from '../images/banner.jpg';
+import Image from 'next/image';
 
 import Head from 'next/head';
+import header from '../images/banner.jpg';
 
 export default function Layout({ children }) {
   const heading = children.type.name.match(/[A-Z][a-z]+/g) ? children.type.name.match(/[A-Z][a-z]+/g).join(' ') : 'Chao Fever';
@@ -16,7 +17,7 @@ export default function Layout({ children }) {
       <meta name="keywords" content="Sonic, Chao, Chaos, Sega, Sonic Adventure, Sonic Adventure 2, Sonic Advance, Dreamcast, Gamecube, Tikal, Mooncow, Chaos Chao, Evolution, Evolutions Hero, Dark, Egg" />
     </Head>
     <header>
-      <img src={ banner } alt="Compilation of Sonic characters" />
+      <Image src={ header } alt="Compilation of Sonic characters" layout='responsive' priority />
     </header>
 
     <nav>
@@ -56,6 +57,6 @@ export default function Layout({ children }) {
       { children }
     </main>
 
-    <footer>©2007-2022 <a href="https://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
+    <footer>©2007-2025 <a href="https://willumstead.com" target="_blank" rel="noopener noreferrer">Will Umstead</a></footer>
   </>;
 }
