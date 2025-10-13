@@ -3,7 +3,7 @@ import NavLink from './NavLink';
 import Image from 'next/image';
 
 import Head from 'next/head';
-import header from '../images/banner.jpg';
+import header from '../public/banner.jpg';
 
 export default function Layout({ children }) {
   const heading = children.type.name.match(/[A-Z][a-z]+/g) ? children.type.name.match(/[A-Z][a-z]+/g).join(' ') : 'Chao Fever';
