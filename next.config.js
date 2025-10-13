@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
   sassOptions: {
     prependData: `@import "./variables.scss";`
+  },
+  images: {
+    unoptimized: true
   }
 };
 
