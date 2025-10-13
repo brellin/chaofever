@@ -16,7 +16,7 @@ export default function Layout({ children }) {
       <meta name="keywords" content="Sonic, Chao, Chaos, Sega, Sonic Adventure, Sonic Adventure 2, Sonic Advance, Dreamcast, Gamecube, Tikal, Mooncow, Chaos Chao, Evolution, Evolutions Hero, Dark, Egg" />
     </Head>
     <header>
-      <Image src='../images/banner.jpg' alt="Compilation of Sonic characters" layout='responsive' priority />
+      <img src='../images/banner.jpg' alt="Compilation of Sonic characters" />
     </header>
 
     <nav>
