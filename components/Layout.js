@@ -3,7 +3,6 @@ import NavLink from './NavLink';
 import Image from 'next/image';
 
 import Head from 'next/head';
-import header from '../images/banner.jpg';
 
 export default function Layout({ children }) {
   const heading = children.type.name.match(/[A-Z][a-z]+/g) ? children.type.name.match(/[A-Z][a-z]+/g).join(' ') : 'Chao Fever';
@@ -17,7 +16,7 @@ export default function Layout({ children }) {
       <meta name="keywords" content="Sonic, Chao, Chaos, Sega, Sonic Adventure, Sonic Adventure 2, Sonic Advance, Dreamcast, Gamecube, Tikal, Mooncow, Chaos Chao, Evolution, Evolutions Hero, Dark, Egg" />
     </Head>
     <header>
-      <Image src={ header } alt="Compilation of Sonic characters" layout='responsive' priority />
+      <Image src='../images/banner.jpg' alt="Compilation of Sonic characters" layout='responsive' priority />
     </header>
 
     <nav>
