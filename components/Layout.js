@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import NavLink from './NavLink';
-import Image from 'next/image';
+import banner from '../images/banner.jpg';
 
 import Head from 'next/head';
 
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
       <meta name="keywords" content="Sonic, Chao, Chaos, Sega, Sonic Adventure, Sonic Adventure 2, Sonic Advance, Dreamcast, Gamecube, Tikal, Mooncow, Chaos Chao, Evolution, Evolutions Hero, Dark, Egg" />
     </Head>
     <header>
-      <img src='../images/banner.jpg' alt="Compilation of Sonic characters" />
+      <img src={ banner } alt="Compilation of Sonic characters" />
     </header>
 
     <nav>
